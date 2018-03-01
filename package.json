@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^9.4.6"
+  },
+  "dependencies": {
+    "pinyin": "^2.8.3"
   }
 }
