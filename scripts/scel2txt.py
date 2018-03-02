@@ -3,7 +3,9 @@ import os
 import sys
 import glob
 
+# https://pinyin.sogou.com/dict/
 # http://wubi.sogou.com/dict/
+
 
 def read_utf16_str(f, offset=-1, len=2):
     if offset >= 0:

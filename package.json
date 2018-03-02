@@ -4,14 +4,33 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "doc": "typedoc --out docs src --module commonjs --target ES6 --name words",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^9.4.6"
+    "@types/moment": "^2.13.0",
+    "@types/chalk": "^2.2.0",
+    "@types/jest": "^22.1.2",
+    "@types/node": "^9.4.6",
+    "@types/pinyin": "^2.8.0",
+    "@types/readline-sync": "^1.4.3",
+    "eslint": "^4.17.0",
+    "eslint-plugin-typescript": "^0.8.1",
+    "jest": "^22.2.2",
+    "ts-jest": "^22.0.3",
+    "typedoc": "^0.10.0",
+    "typescript": "^2.7.1",
+    "typescript-eslint-parser": "^12.0.0"
   },
   "dependencies": {
-    "pinyin": "^2.8.3"
+    "chalk": "^2.3.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "pinyin": "^2.8.3",
+    "readline-sync": "^1.4.8"
   }
 }
