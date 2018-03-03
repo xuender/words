@@ -16,7 +16,7 @@ export interface Dict {
  */
 export class DictUtils {
   private dicts = [];
-  constructor(dict = '../data/cy.json') {
+  constructor(dict = './data/cy.json') {
     this.dicts = JSON.parse(fs.readFileSync(dict, 'utf8'))
   }
 
@@ -35,7 +35,7 @@ export class DictUtils {
   rhyme(w: string, size = 1): string[] {
     if (w.length < size) return []
     const wa = toArray(w, size)
-    return chain(this.dicts).filter((d: Dict) => rhyme(d.txt, wa, size))
+    return chain(this.dicts).filter((d: Dict) => rhyme(wa, d.txt, size, w.split('').slice(w.length - size)))
       .map((d: Dict) => d.txt)
       .value()
   }

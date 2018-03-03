@@ -7,6 +7,7 @@
     "doc": "typedoc --out docs src --module commonjs --target ES6 --name words",
     "build": "tsc",
     "dev": "tsc -w",
+    "wtest": "jest --watch",
     "test": "jest"
   },
   "author": "",
