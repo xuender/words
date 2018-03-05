@@ -6,15 +6,15 @@ import { rhyme as toRhyme } from './rhyme'
  * 包含
  */
 export function includes(p: string[][], c: string[][]): boolean {
-  if (p.length < c.length || c.length === 0) return false
+  if (p.length < c.length || c.length === 0) { return false }
   let i = 0
   let pi = -1
   for (const a of c) {
     const f = find(p, (b: string[]) => intersection(a, b).length > 0, i)
-    if (!f) return false
+    if (!f) { return false }
     const t = indexOf(p, f, i)
     // console.log('a', a, 'f', f, 't', t, 'i', i, 'pi', pi)
-    if (t - pi > 1 && pi >= 0) return false
+    if (t - pi > 1 && pi >= 0) { return false }
     pi = t
     i = t
   }
@@ -24,9 +24,9 @@ export function includes(p: string[][], c: string[][]): boolean {
  * 比较
  */
 export function equal(a: string[][], b: string[][]): boolean {
-  if (a.length !== b.length) return false
+  if (a.length !== b.length) { return false }
   for (let i = 0; i < a.length; i++) {
-    if (intersection(a[i], b[i]).length == 0) return false
+    if (intersection(a[i], b[i]).length === 0) { return false }
   }
   return true
 }
@@ -42,10 +42,10 @@ export function rhyme(
   wb: string | string[][],
   size = 1,
   exclude: string[] = []): boolean {
-  if (size < 1 || wa.length < size || wb.length < size) return false
+  if (size < 1 || wa.length < size || wb.length < size) { return false }
   if (typeof (wb) === 'string') {
     // console.log(wb, exclude)
-    if (intersection(wb.split('').slice(wb.length - size), exclude).length > 0) return false
+    if (intersection(wb.split('').slice(wb.length - size), exclude).length > 0) { return false }
   }
   const a = toArray(wa, size)
   const b = toArray(wb, size)

@@ -1,6 +1,6 @@
 import fs from 'fs'
 import pinyin from 'pinyin'
-import { chain, indexOf } from 'lodash'
+import { chain } from 'lodash'
 
 import { includes, rhyme, toArray } from './pinyin'
 /**
@@ -33,7 +33,7 @@ export class DictUtils {
    * 压韵
    */
   rhyme(w: string, size = 1): string[] {
-    if (w.length < size) return []
+    if (w.length < size) { return [] }
     const wa = toArray(w, size)
     return chain(this.dicts).filter((d: Dict) => rhyme(wa, d.txt, size, w.split('').slice(w.length - size)))
       .map((d: Dict) => d.txt)

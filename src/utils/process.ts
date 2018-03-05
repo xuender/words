@@ -32,8 +32,8 @@ ff66cc,006633,ff99cc,009933,cc0099,33ff66,cc66ff,339900,cc99ff,660033,99ff33,
 export function plog(pid: number, ...msg: any[]) {
   const ms = []
   ms.push('>')
-  if (pid < 10) ms.push('')
-  if (pid < 100) ms.push('')
+  if (pid < 10) { ms.push('') }
+  if (pid < 100) { ms.push('') }
   ms.push(chalk.hex(COLORS[pid % COLORS.length]).bold(`${pid}`))
   ms.push(...msg)
   console.log(...ms)

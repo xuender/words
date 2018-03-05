@@ -17,7 +17,7 @@ export class UseTime {
     const nowMoment = moment(b)
     const startMoment = moment(a)
     const ms = []
-    for (const k in UseTime.FORMAT) {
+    for (const k of Object.keys(UseTime.FORMAT)) {
       const i = nowMoment.diff(startMoment, k as moment.unitOfTime.Diff)
       if (i) {
         ms.push(`${i}${UseTime.FORMAT[k]}`)
@@ -29,7 +29,7 @@ export class UseTime {
   }
 
   /**
-    * @param start 起始时间(毫秒)
+   * @param start 起始时间(毫秒)
    */
   constructor(private start = new Date().getTime()) { }
 
