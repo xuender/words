@@ -19,11 +19,15 @@ export class Poetry {
     this.matches()
   }
 
+  /**
+   * 检查压韵
+   */
   private matches() {
     if (this.sentences.length === 0) { return }
     for (let i = 1; i < this.sentences.length; i++) {
       setRhyme(this.sentences[i], ...this.sentences.slice(0, i))
     }
+    setRhyme(this.sentences[0], ...this.sentences.slice(1, 3))
   }
 
   /**
