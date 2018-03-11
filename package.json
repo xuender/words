@@ -26,14 +26,15 @@
     "tslint": "^5.9.1",
     "tslint-defocus": "^2.0.3",
     "typedoc": "^0.10.0",
-    "typescript": "^2.7.1",
-    "typescript-eslint-parser": "^12.0.0"
+    "typescript": "^2.7.1"
   },
   "dependencies": {
     "chalk": "^2.3.0",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
+    "nodejieba": "^2.2.5",
     "pinyin": "^2.8.3",
-    "readline-sync": "^1.4.8"
+    "readline-sync": "^1.4.8",
+    "word2vec": "^1.1.2"
   }
 }
