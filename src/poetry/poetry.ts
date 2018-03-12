@@ -65,7 +65,7 @@ export class Poetry {
   private toRhyme(w: string): Rhyme[] {
     const py = pinyin(w, { style: pinyin.STYLE_TONE2 })[0]
     const ret: Rhyme[] = []
-    py.forEach(p => ret.push({
+    py.forEach((p: string) => ret.push({
       py: p,
       r: rhyme(p),
       t: tone(p)
