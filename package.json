@@ -32,9 +32,9 @@
     "chalk": "^2.3.0",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
+    "node-word2vec": "^0.0.8",
     "nodejieba": "^2.2.5",
     "pinyin": "^2.8.3",
-    "readline-sync": "^1.4.8",
-    "word2vec": "^1.1.2"
+    "readline-sync": "^1.4.8"
   }
 }
