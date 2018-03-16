@@ -5,7 +5,7 @@
     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
     "lib": ["es2015.promise", "ESNext"],
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "./build",
     /* Redirect output structure to the directory. */
     "strict": true,

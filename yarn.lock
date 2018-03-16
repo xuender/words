@@ -26,9 +26,9 @@
   version "1.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
 
-"@types/fs-extra@5.0.0":
-  version "5.0.0"
-  resolved "https://rep.woda.com:8443/repository/npm/@types/fs-extra/-/fs-extra-5.0.0.tgz#d3e225b35eb5c6d3a5a782c28219df365c781413"
+"@types/fs-extra@5.0.1":
+  version "5.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/fs-extra/-/fs-extra-5.0.1.tgz#cd856fbbdd6af2c11f26f8928fd8644c9e9616c9"
   dependencies:
     "@types/node" "*"
 
@@ -52,9 +52,9 @@
   version "22.1.4"
   resolved "https://rep.woda.com:8443/repository/npm/@types/jest/-/jest-22.1.4.tgz#5c0c06a9bb495c67e0a78002a952f151e2ae58a1"
 
-"@types/lodash@4.14.99":
-  version "4.14.99"
-  resolved "https://rep.woda.com:8443/repository/npm/@types/lodash/-/lodash-4.14.99.tgz#e6e10c0a4cc16c7409b3181f1e66880d2fb7d4dc"
+"@types/lodash@4.14.104":
+  version "4.14.104"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/lodash/-/lodash-4.14.104.tgz#53ee2357fa2e6e68379341d92eb2ecea4b11bb80"
 
 "@types/marked@0.3.0":
   version "0.3.0"
@@ -86,9 +86,9 @@
   version "1.4.3"
   resolved "https://rep.woda.com:8443/repository/npm/@types/readline-sync/-/readline-sync-1.4.3.tgz#eac55a39d5a349912062c9e5216cd550c07fd9c8"
 
-"@types/shelljs@0.7.7":
-  version "0.7.7"
-  resolved "https://rep.woda.com:8443/repository/npm/@types/shelljs/-/shelljs-0.7.7.tgz#1f7bfa28947661afea06365db9b1135bbc903ec4"
+"@types/shelljs@0.7.8":
+  version "0.7.8"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/shelljs/-/shelljs-0.7.8.tgz#4b4d6ee7926e58d7bca448a50ba442fd9f6715bd"
   dependencies:
     "@types/glob" "*"
     "@types/node" "*"
@@ -106,6 +106,10 @@ acorn-globals@^4.1.0:
   resolved "https://rep.woda.com:8443/repository/npm/acorn-globals/-/acorn-globals-4.1.0.tgz#ab716025dbe17c54d3ef81d32ece2b2d99fe2538"
   dependencies:
     acorn "^5.0.0"
+
+acorn@^4.0.9:
+  version "4.0.13"
+  resolved "https://rep.woda.com:8443/repository/npm/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
 
 acorn@^5.0.0, acorn@^5.3.0:
   version "5.5.0"
@@ -584,6 +588,10 @@ cliui@^4.0.0:
     strip-ansi "^4.0.0"
     wrap-ansi "^2.0.0"
 
+clone@^2.1.0:
+  version "2.1.1"
+  resolved "https://rep.woda.com:8443/repository/npm/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://rep.woda.com:8443/repository/npm/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -611,6 +619,10 @@ combined-stream@1.0.6, combined-stream@^1.0.5, combined-stream@~1.0.5:
 commander@^2.12.1:
   version "2.14.1"
   resolved "https://rep.woda.com:8443/repository/npm/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
+
+commander@^2.9.0:
+  version "2.15.0"
+  resolved "https://rep.woda.com:8443/repository/npm/commander/-/commander-2.15.0.tgz#ad2a23a1c3b036e392469b8012cec6b33b4c1322"
 
 commander@~1.1.1:
   version "1.1.1"
@@ -763,6 +775,14 @@ domexception@^1.0.0:
   dependencies:
     webidl-conversions "^4.0.2"
 
+dtsmake@^0.0.10:
+  version "0.0.10"
+  resolved "https://rep.woda.com:8443/repository/npm/dtsmake/-/dtsmake-0.0.10.tgz#9981cce5e5f9c17c79b09eba4bad3f1ef78c6e32"
+  dependencies:
+    clone "^2.1.0"
+    commander "^2.9.0"
+    tern "^0.21.0"
+
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -772,6 +792,21 @@ ecc-jsbn@~0.1.1:
   resolved "https://rep.woda.com:8443/repository/npm/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
   dependencies:
     jsbn "~0.1.0"
+
+enhanced-resolve@^2.2.2:
+  version "2.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/enhanced-resolve/-/enhanced-resolve-2.3.0.tgz#a115c32504b6302e85a76269d7a57ccdd962e359"
+  dependencies:
+    graceful-fs "^4.1.2"
+    memory-fs "^0.3.0"
+    object-assign "^4.0.1"
+    tapable "^0.2.3"
+
+errno@^0.1.3:
+  version "0.1.7"
+  resolved "https://rep.woda.com:8443/repository/npm/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
+  dependencies:
+    prr "~1.0.1"
 
 error-ex@^1.2.0:
   version "1.3.1"
@@ -1905,7 +1940,7 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
-marked@^0.3.12:
+marked@^0.3.17:
   version "0.3.17"
   resolved "https://rep.woda.com:8443/repository/npm/marked/-/marked-0.3.17.tgz#607f06668b3c6b1246b28f13da76116ac1aa2d2b"
 
@@ -1914,6 +1949,13 @@ mem@^1.1.0:
   resolved "https://rep.woda.com:8443/repository/npm/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
   dependencies:
     mimic-fn "^1.0.0"
+
+memory-fs@^0.3.0:
+  version "0.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/memory-fs/-/memory-fs-0.3.0.tgz#7bcc6b629e3a43e871d7e29aca6ae8a7f15cbb20"
+  dependencies:
+    errno "^0.1.3"
+    readable-stream "^2.0.1"
 
 merge-stream@^1.0.1:
   version "1.0.1"
@@ -2297,6 +2339,10 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
+prr@~1.0.1:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
+
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -2494,6 +2540,10 @@ resolve-cwd@^2.0.0:
   resolved "https://rep.woda.com:8443/repository/npm/resolve-cwd/-/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
   dependencies:
     resolve-from "^3.0.0"
+
+resolve-from@2.0.0:
+  version "2.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
 
 resolve-from@^3.0.0:
   version "3.0.0"
@@ -2768,6 +2818,10 @@ symbol-tree@^3.2.2:
   version "3.2.2"
   resolved "https://rep.woda.com:8443/repository/npm/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
 
+tapable@^0.2.3:
+  version "0.2.8"
+  resolved "https://rep.woda.com:8443/repository/npm/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
+
 tar-pack@^3.4.0:
   version "3.4.1"
   resolved "https://rep.woda.com:8443/repository/npm/tar-pack/-/tar-pack-3.4.1.tgz#e1dbc03a9b9d3ba07e896ad027317eb679a10a1f"
@@ -2788,6 +2842,16 @@ tar@^2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+tern@^0.21.0:
+  version "0.21.0"
+  resolved "https://rep.woda.com:8443/repository/npm/tern/-/tern-0.21.0.tgz#809c87a826e112494398cf8894f7c2d1b3464eb7"
+  dependencies:
+    acorn "^4.0.9"
+    enhanced-resolve "^2.2.2"
+    glob "^7.1.1"
+    minimatch "^3.0.3"
+    resolve-from "2.0.0"
 
 test-exclude@^4.1.1:
   version "4.2.0"
@@ -2896,33 +2960,29 @@ typedoc-default-themes@^0.5.0:
   version "0.5.0"
   resolved "https://rep.woda.com:8443/repository/npm/typedoc-default-themes/-/typedoc-default-themes-0.5.0.tgz#6dc2433e78ed8bea8e887a3acde2f31785bd6227"
 
-typedoc@^0.10.0:
-  version "0.10.0"
-  resolved "https://rep.woda.com:8443/repository/npm/typedoc/-/typedoc-0.10.0.tgz#898b447248dabf68ecbde9d5ccf5141fda8aa166"
+typedoc@^0.11.1:
+  version "0.11.1"
+  resolved "https://rep.woda.com:8443/repository/npm/typedoc/-/typedoc-0.11.1.tgz#9f033887fd2218c769e1045feb88a1efed9f12c9"
   dependencies:
-    "@types/fs-extra" "5.0.0"
+    "@types/fs-extra" "5.0.1"
     "@types/handlebars" "4.0.36"
     "@types/highlight.js" "9.12.2"
-    "@types/lodash" "4.14.99"
+    "@types/lodash" "4.14.104"
     "@types/marked" "0.3.0"
     "@types/minimatch" "3.0.3"
-    "@types/shelljs" "0.7.7"
+    "@types/shelljs" "0.7.8"
     fs-extra "^5.0.0"
     handlebars "^4.0.6"
     highlight.js "^9.0.0"
-    lodash "^4.13.1"
-    marked "^0.3.12"
+    lodash "^4.17.5"
+    marked "^0.3.17"
     minimatch "^3.0.0"
     progress "^2.0.0"
     shelljs "^0.8.1"
     typedoc-default-themes "^0.5.0"
-    typescript "2.7.1"
+    typescript "2.7.2"
 
-typescript@2.7.1:
-  version "2.7.1"
-  resolved "https://rep.woda.com:8443/repository/npm/typescript/-/typescript-2.7.1.tgz#bb3682c2c791ac90e7c6210b26478a8da085c359"
-
-typescript@^2.4.1, typescript@^2.7.1:
+typescript@2.7.2, typescript@^2.4.1, typescript@^2.7.1:
   version "2.7.2"
   resolved "https://rep.woda.com:8443/repository/npm/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 

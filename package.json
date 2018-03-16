@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "doc": "typedoc --out docs src --module commonjs --target ES6 --name words",
+    "doc": "node_modules/.bin/typedoc --out docs src --module commonjs --target ES6 --name words",
+    "types": "cp scripts/nodejieba.d.ts node_modules/nodejieba/index.d.ts",
     "build": "tsc",
     "dev": "tsc -w",
     "wtest": "jest --watch",
@@ -25,11 +26,12 @@
     "ts-jest": "^22.0.3",
     "tslint": "^5.9.1",
     "tslint-defocus": "^2.0.3",
-    "typedoc": "^0.10.0",
+    "typedoc": "^0.11.1",
     "typescript": "^2.7.1"
   },
   "dependencies": {
     "chalk": "^2.3.0",
+    "dtsmake": "^0.0.10",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
     "node-word2vec": "^0.0.8",
