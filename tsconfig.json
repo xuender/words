@@ -3,9 +3,9 @@
     "target": "ESNext",
     "module": "commonjs",
     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
-    "lib": ["es2015.promise", "ESNext"],
+    "lib": ["es2015.promise", "esnext"],
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
-    "sourceMap": false,
+    "sourceMap": true,
     "outDir": "./build",
     /* Redirect output structure to the directory. */
     "strict": true,

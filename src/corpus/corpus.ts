@@ -7,20 +7,12 @@ import { pullAll } from 'lodash'
 export class Corpus {
   private model: Word2Vec;
 
+  /**
+   * 根据语料模型生成语料库
+   * @param modelFile 语料模型
+   */
   constructor(modelFile = __dirname + '/../../data/corpus.bin') {
     this.model = new Word2Vec(modelFile)
-  }
-
-  private getVector(word: string): Promise<WordVector> {
-    return new Promise<WordVector>(resolve => {
-      this.model.getVector(word, resolve)
-    })
-  }
-
-  private getSimilarWordList(v: WordVector, count = 10): Promise<string[]> {
-    return new Promise<string[]>(resolve => {
-      this.model.getSimilarWordList(v, count, f => resolve(f as string[]))
-    })
   }
 
   /**
@@ -33,6 +25,18 @@ export class Corpus {
     const v = await this.getVector(word)
     const ret = await this.getSimilarWordList(v, size)
     return ret
+  }
+
+  private getVector(word: string): Promise<WordVector> {
+    return new Promise<WordVector>(resolve => {
+      this.model.getVector(word, resolve)
+    })
+  }
+
+  private getSimilarWordList(v: WordVector, count = 10): Promise<string[]> {
+    return new Promise<string[]>(resolve => {
+      this.model.getSimilarWordList(v, count, f => resolve(f as string[]))
+    })
   }
 
   /**

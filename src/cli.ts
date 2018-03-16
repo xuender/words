@@ -3,17 +3,50 @@ import chalk from 'chalk'
 import { similar } from './corpus'
 import { cut, tag, extract, cutAll, cutHMM, cutForSearch, cutSmall } from 'nodejieba'
 
-function exit() {
-  console.log('退出')
-  process.exit(0);
+/**
+ * 主方法
+ */
+async function main() {
+  init()
+  while (1) {
+    const index = readlineSync.keyInSelect(['分词', '近义词', '填词'], '选择工作: ')
+    switch (index) {
+      case 0:
+        cutWord()
+        break
+      case 1:
+        const word = readlineSync.question('请输入一个词,查找其近义词: ')
+        const ws = await similar(word)
+        console.log(ws)
+        break
+      case 2: // 填词
+        // TODO
+        break
+      default:
+        return
+    }
+  }
 }
 
+/**
+ * 初始化
+ */
 function init() {
   process.title = 'words-cli'
   process.on('SIGINT', exit);
 }
 
-// 分词
+/**
+ * 退出
+ */
+function exit() {
+  console.log('退出')
+  process.exit(0);
+}
+
+/**
+ * 分词
+ */
 function cutWord() {
   const s = readlineSync.question('请输入一个句子,对其进行分词: ')
   while (1) {
@@ -49,27 +82,6 @@ function cutWord() {
       case 6:
         console.log(cutSmall(s, readlineSync.questionInt('词长度: ')))
         break;
-      default:
-        return
-    }
-  }
-}
-
-async function main() {
-  init()
-  while (1) {
-    const index = readlineSync.keyInSelect(['分词', '近义词', '填词'], '选择工作: ')
-    switch (index) {
-      case 0:
-        cutWord()
-        break
-      case 1:
-        const word = readlineSync.question('请输入一个词,查找其近义词: ')
-        const ws = await similar(word)
-        console.log(ws)
-        break
-      case 2: // 填词
-        break
       default:
         return
     }

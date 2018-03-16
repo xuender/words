@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "doc": "node_modules/.bin/typedoc --out docs src --module commonjs --target ES6 --name words",
+    "doc": "node_modules/.bin/typedoc",
     "types": "cp scripts/nodejieba.d.ts node_modules/nodejieba/index.d.ts",
     "build": "tsc",
     "dev": "tsc -w",
     "wtest": "jest --watch",
     "lint": "node_modules/.bin/tslint -p . -c tslint.json \"src/**/*.ts\" -e \"**/node_modules/**\"",
     "lint:spec": "node_modules/.bin/tslint -p . -c tslint.spec.json \"src/**/*.spec.ts\" -e \"**/node_modules/**\"",
+    "cli": "node build/cli.js",
     "test": "jest"
   },
   "author": "",

@@ -1,4 +1,5 @@
 import chalk from 'chalk'
+
 /**
  * 进度条显示
  * @example
