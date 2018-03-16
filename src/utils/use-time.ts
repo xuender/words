@@ -5,7 +5,7 @@ import moment from 'moment'
  * 消耗时间
  */
 export class UseTime {
-  private static FORMAT: any = { d: '天', h: '小时', m: '分钟', s: '秒' }
+  private static FORMAT: any = { d: '天', h: '小时', m: '分', s: '秒' }
   /**
    * 计算时间差
    * @param a 时间A(毫秒)

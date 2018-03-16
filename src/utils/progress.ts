@@ -22,7 +22,8 @@ import chalk from 'chalk'
  * @param label 标题
  */
 export function progress(current: number, max: number, label = '') {
-  const i = parseInt(`${100 * current / max}`, 10)
+  let i = parseInt(`${100 * current / max}`, 10)
+  if (i > 100) { i = 100 }
   const a = (new Array(i + 1)).join('#')
   const b = (new Array(100 - i)).join('-')
   console.log(`\x1B[1A\x1B[K ${label} [${a}${b}] ${chalk.bold.green(String(current))}`)
