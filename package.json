@@ -29,7 +29,9 @@
     "typescript": "^2.7.1"
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.7",
     "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
     "dtsmake": "^0.0.10",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
