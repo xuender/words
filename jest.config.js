@@ -12,7 +12,8 @@ module.exports = {
   ],
   coveragePathIgnorePatterns: [
     '<rootDir>/node_modules/',
-    '<rootDir>/@types/'
+    '<rootDir>/@types/',
+    '<rootDir>/scripts/'
   ],
   testEnvironment: 'node',
   moduleFileExtensions: [
