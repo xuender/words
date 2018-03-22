@@ -6,6 +6,7 @@ module.exports = {
   testMatch: [
     '**/?(*.)(spec|test).ts?(x)'
   ],
+  collectCoverage: true,
   collectCoverageFrom: [
     '**/?(*.)ts?(x)'
   ],
