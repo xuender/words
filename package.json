@@ -38,6 +38,7 @@
     "node-word2vec": "^0.0.8",
     "nodejieba": "^2.2.5",
     "pinyin": "^2.8.3",
-    "readline-sync": "^1.4.8"
+    "readline-sync": "^1.4.8",
+    "shelljs": "^0.8.1"
   }
 }
