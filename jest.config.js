@@ -6,12 +6,14 @@ module.exports = {
   testMatch: [
     '**/?(*.)(spec|test).ts?(x)'
   ],
+  collectCoverage: true,
   collectCoverageFrom: [
     '**/?(*.)ts?(x)'
   ],
   coveragePathIgnorePatterns: [
     '<rootDir>/node_modules/',
-    '<rootDir>/@types/'
+    '<rootDir>/@types/',
+    '<rootDir>/scripts/'
   ],
   testEnvironment: 'node',
   moduleFileExtensions: [

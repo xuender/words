@@ -17,10 +17,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cheerio": "^0.22.7",
     "@types/jest": "^22.1.2",
     "@types/node": "^9.4.6",
     "@types/pinyin": "^2.8.0",
     "@types/readline-sync": "^1.4.3",
+    "@types/pino": "^4.7.1",
     "jest": "^22.2.2",
     "ts-jest": "^22.0.3",
     "tslint": "^5.9.1",
@@ -30,12 +32,15 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
     "dtsmake": "^0.0.10",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
     "node-word2vec": "^0.0.8",
     "nodejieba": "^2.2.5",
+    "pino": "^4.15.0",
     "pinyin": "^2.8.3",
-    "readline-sync": "^1.4.8"
+    "readline-sync": "^1.4.8",
+    "shelljs": "^0.8.1"
   }
 }
