@@ -2,7 +2,7 @@ import * as readlineSync from 'readline-sync'
 import chalk from 'chalk'
 import { cut, tag, extract, cutAll, cutHMM, cutForSearch, cutSmall } from 'nodejieba'
 
-import { similar, analogy, relation } from './corpus'
+import { similar, analogy, getRelation } from './corpus'
 /**
  * 主方法
  */
@@ -22,9 +22,8 @@ async function main() {
       case 2: // 填词
         const s = readlineSync.question('请输入包含x(替换字符)的两句话: ')
         if (!s) { break }
-        console.log(s)
-        const rs = relation(s)
-        console.log(rs)
+        const rs = getRelation(s)
+        // console.log(rs)
         for (const r of rs) {
           const ar = await analogy(r)
           console.log(ar)

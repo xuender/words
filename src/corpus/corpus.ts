@@ -48,19 +48,19 @@ export class Corpus {
    * @return 可能的推测
    */
   async analogy(r: Relation, size = 10): Promise<string[]> {
-    console.log('r', r)
+    //console.log('r', r)
     let v = await this.getVector(r.main)
     if (v) {
       for (const s of r.negative) { // 逆向
         const sv = await this.getVector(s)
-        if (sv) { v = v.add(sv.reverse()) }
+        if (sv && sv.index >= 0) { v = v.add(sv.reverse()) }
       }
       for (const s of r.positive) { // 正向
         const sv = await this.getVector(s)
-        if (sv) { v = v.add(sv) }
+        if (sv && sv.index >= 0) { v = v.add(sv) }
       }
       const ret = await this.getSimilarWordList(v, size + r.positive.length + r.negative.length)
-      return chain(ret).map(k => k[0]).pullAll(r.positive).pullAll(r.negative).slice(0, size).value()
+      return chain(ret).map(k => k[0]).pullAll([r.main]).pullAll(r.positive).pullAll(r.negative).slice(0, size).value()
     }
     return []
   }

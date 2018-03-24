@@ -22,4 +22,4 @@ export function analogy(r: Relation, max = 10): Promise<string[]> {
   return getCorpus().analogy(r, max)
 }
 
-export { Relation, relation } from './relation'
+export { Relation, getRelation } from './relation'
