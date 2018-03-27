@@ -1,5 +1,7 @@
 import { Word2Vec, WordVector } from 'node-word2vec'
-import { pullAll } from 'lodash'
+import { chain } from 'lodash'
+
+import { Relation } from './relation'
 
 /**
  * 语料库
@@ -41,26 +43,24 @@ export class Corpus {
 
   /**
    * 推测
-   * @param p 正向
-   * @param n 逆向
+   * @param r 关系
    * @param size 数量
    * @return 可能的推测
    */
-  async analogy(p: string[], n: string[], size = 10): Promise<string[]> {
-    let v
-    for (const s of p) {
-      const sv = await this.getVector(s)
-      v = v ? v.add(sv) : sv
-    }
+  async analogy(r: Relation, size = 10): Promise<string[]> {
+    //console.log('r', r)
+    let v = await this.getVector(r.main)
     if (v) {
-      for (const s of n) {
+      for (const s of r.negative) { // 逆向
         const sv = await this.getVector(s)
-        v.add(sv.reverse())
+        if (sv && sv.index >= 0) { v = v.add(sv.reverse()) }
       }
-      const ret = await this.getSimilarWordList(v, size + p.length + n.length)
-      pullAll(ret, p)
-      pullAll(ret, n)
-      return ret.slice(0, size)
+      for (const s of r.positive) { // 正向
+        const sv = await this.getVector(s)
+        if (sv && sv.index >= 0) { v = v.add(sv) }
+      }
+      const ret = await this.getSimilarWordList(v, size + r.positive.length + r.negative.length)
+      return chain(ret).map(k => k[0]).pullAll([r.main]).pullAll(r.positive).pullAll(r.negative).slice(0, size).value()
     }
     return []
   }
