@@ -16,6 +16,10 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@sindresorhus/is@^0.7.0":
+  version "0.7.0"
+  resolved "https://rep.woda.com:8443/repository/npm/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
+
 "@types/cheerio@^0.22.7":
   version "0.22.7"
   resolved "https://rep.woda.com:8443/repository/npm/@types/cheerio/-/cheerio-0.22.7.tgz#4a92eafedfb2b9f4437d3a4410006d81114c66ce"
@@ -38,6 +42,12 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/got@^7.1.8":
+  version "7.1.8"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/got/-/got-7.1.8.tgz#c5f421b25770689bf8948b1241f710d71a00d7dd"
+  dependencies:
+    "@types/node" "*"
+
 "@types/handlebars@4.0.36":
   version "4.0.36"
   resolved "https://rep.woda.com:8443/repository/npm/@types/handlebars/-/handlebars-4.0.36.tgz#ff57c77fa1ab6713bb446534ddc4d979707a3a79"
@@ -50,6 +60,18 @@
   version "22.1.4"
   resolved "https://rep.woda.com:8443/repository/npm/@types/jest/-/jest-22.1.4.tgz#5c0c06a9bb495c67e0a78002a952f151e2ae58a1"
 
+"@types/leveldown@^1.7.0":
+  version "1.7.0"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/leveldown/-/leveldown-1.7.0.tgz#e778273d9a08ea67308947a2d2196778b84bf26c"
+  dependencies:
+    "@types/node" "*"
+
+"@types/levelup@^0.0.30":
+  version "0.0.30"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/levelup/-/levelup-0.0.30.tgz#869dd7a82cdbe5983e737006a1ff4e42fac97ca7"
+  dependencies:
+    "@types/node" "*"
+
 "@types/lodash@4.14.104":
   version "4.14.104"
   resolved "https://rep.woda.com:8443/repository/npm/@types/lodash/-/lodash-4.14.104.tgz#53ee2357fa2e6e68379341d92eb2ecea4b11bb80"
@@ -61,6 +83,12 @@
 "@types/minimatch@*", "@types/minimatch@3.0.3":
   version "3.0.3"
   resolved "https://rep.woda.com:8443/repository/npm/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+
+"@types/nock@^9.1.2":
+  version "9.1.2"
+  resolved "https://rep.woda.com:8443/repository/npm/@types/nock/-/nock-9.1.2.tgz#0515b27e3f6bbc11834d22508ad02e2921dd376a"
+  dependencies:
+    "@types/node" "*"
 
 "@types/node@*", "@types/node@^9.4.6":
   version "9.4.6"
@@ -92,12 +120,6 @@
     "@types/glob" "*"
     "@types/node" "*"
 
-"@types/winston@^2.3.8":
-  version "2.3.8"
-  resolved "https://rep.woda.com:8443/repository/npm/@types/winston/-/winston-2.3.8.tgz#88964f45ecb5ed1feb4bfb38a24316bee8bf8768"
-  dependencies:
-    "@types/node" "*"
-
 abab@^1.0.4:
   version "1.0.4"
   resolved "https://rep.woda.com:8443/repository/npm/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -105,6 +127,12 @@ abab@^1.0.4:
 abbrev@1:
   version "1.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
+
+abstract-leveldown@~4.0.0:
+  version "4.0.3"
+  resolved "https://rep.woda.com:8443/repository/npm/abstract-leveldown/-/abstract-leveldown-4.0.3.tgz#cb636f4965fbe117f5c8b76a7d51dd42aaed0580"
+  dependencies:
+    xtend "~4.0.0"
 
 acorn-globals@^4.1.0:
   version "4.1.0"
@@ -252,6 +280,10 @@ assert-plus@^0.2.0:
   version "0.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/assert-plus/-/assert-plus-0.2.0.tgz#d74e1b87e7affc0db8aadb7021f3fe48101ab234"
 
+assertion-error@^1.0.1:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
+
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
@@ -273,10 +305,6 @@ async@^2.1.4:
   resolved "https://rep.woda.com:8443/repository/npm/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
     lodash "^4.14.0"
-
-async@~1.0.0:
-  version "1.0.0"
-  resolved "https://rep.woda.com:8443/repository/npm/async/-/async-1.0.0.tgz#f8fc04ca3a13784ade9e1641af98578cfbd647a9"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -468,6 +496,17 @@ binary-extensions@^1.0.0:
   version "1.11.0"
   resolved "https://rep.woda.com:8443/repository/npm/binary-extensions/-/binary-extensions-1.11.0.tgz#46aa1751fb6a2f93ee5e689bb1087d4b14c6c205"
 
+bindings@~1.3.0:
+  version "1.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/bindings/-/bindings-1.3.0.tgz#b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
+
+bl@^1.0.0:
+  version "1.2.2"
+  resolved "https://rep.woda.com:8443/repository/npm/bl/-/bl-1.2.2.tgz#a160911717103c07410cef63ef51b397c025af9c"
+  dependencies:
+    readable-stream "^2.3.5"
+    safe-buffer "^5.1.1"
+
 block-stream@*:
   version "0.0.9"
   resolved "https://rep.woda.com:8443/repository/npm/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -531,6 +570,18 @@ builtin-modules@^1.0.0, builtin-modules@^1.1.1:
   version "1.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
+cacheable-request@^2.1.1:
+  version "2.1.4"
+  resolved "https://rep.woda.com:8443/repository/npm/cacheable-request/-/cacheable-request-2.1.4.tgz#0d808801b6342ad33c91df9d0b44dc09b91e5c3d"
+  dependencies:
+    clone-response "1.0.2"
+    get-stream "3.0.0"
+    http-cache-semantics "3.8.1"
+    keyv "3.0.0"
+    lowercase-keys "1.0.0"
+    normalize-url "2.0.1"
+    responselike "1.0.2"
+
 callsites@^2.0.0:
   version "2.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
@@ -553,6 +604,17 @@ center-align@^0.1.1:
   dependencies:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
+
+chai@^4.1.2:
+  version "4.1.2"
+  resolved "https://rep.woda.com:8443/repository/npm/chai/-/chai-4.1.2.tgz#0f64584ba642f0f2ace2806279f4f06ca23ad73c"
+  dependencies:
+    assertion-error "^1.0.1"
+    check-error "^1.0.1"
+    deep-eql "^3.0.0"
+    get-func-name "^2.0.0"
+    pathval "^1.0.0"
+    type-detect "^4.0.0"
 
 chalk@^1.1.3:
   version "1.1.3"
@@ -580,6 +642,10 @@ chalk@^2.3.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+check-error@^1.0.1:
+  version "1.0.2"
+  resolved "https://rep.woda.com:8443/repository/npm/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
+
 cheerio@^1.0.0-rc.2:
   version "1.0.0-rc.2"
   resolved "https://rep.woda.com:8443/repository/npm/cheerio/-/cheerio-1.0.0-rc.2.tgz#4b9f53a81b27e4d5dac31c0ffd0cfa03cc6830db"
@@ -606,6 +672,10 @@ chokidar@^1.6.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
+chownr@^1.0.1:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
+
 ci-info@^1.0.0:
   version "1.1.2"
   resolved "https://rep.woda.com:8443/repository/npm/ci-info/-/ci-info-1.1.2.tgz#03561259db48d0474c8bdc90f5b47b068b6bbfb4"
@@ -625,6 +695,12 @@ cliui@^4.0.0:
     string-width "^2.1.1"
     strip-ansi "^4.0.0"
     wrap-ansi "^2.0.0"
+
+clone-response@1.0.2:
+  version "1.0.2"
+  resolved "https://rep.woda.com:8443/repository/npm/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
+  dependencies:
+    mimic-response "^1.0.0"
 
 clone@^2.1.0:
   version "2.1.1"
@@ -647,10 +723,6 @@ color-convert@^1.9.0:
 color-name@^1.1.1:
   version "1.1.3"
   resolved "https://rep.woda.com:8443/repository/npm/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
-
-colors@1.0.x:
-  version "1.0.3"
-  resolved "https://rep.woda.com:8443/repository/npm/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
 combined-stream@1.0.6, combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.6"
@@ -755,10 +827,6 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   dependencies:
     cssom "0.3.x"
 
-cycle@1.0.x:
-  version "1.0.3"
-  resolved "https://rep.woda.com:8443/repository/npm/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
-
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://rep.woda.com:8443/repository/npm/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -781,6 +849,26 @@ decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
+decode-uri-component@^0.2.0:
+  version "0.2.0"
+  resolved "https://rep.woda.com:8443/repository/npm/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+
+decompress-response@^3.3.0:
+  version "3.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/decompress-response/-/decompress-response-3.3.0.tgz#80a4dd323748384bfa248083622aedec982adff3"
+  dependencies:
+    mimic-response "^1.0.0"
+
+deep-eql@^3.0.0:
+  version "3.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/deep-eql/-/deep-eql-3.0.1.tgz#dfc9404400ad1c8fe023e7da1df1c147c4b444df"
+  dependencies:
+    type-detect "^4.0.0"
+
+deep-equal@^1.0.0:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
+
 deep-extend@~0.4.0:
   version "0.4.2"
   resolved "https://rep.woda.com:8443/repository/npm/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
@@ -794,6 +882,12 @@ default-require-extensions@^1.0.0:
   resolved "https://rep.woda.com:8443/repository/npm/default-require-extensions/-/default-require-extensions-1.0.0.tgz#f37ea15d3e13ffd9b437d33e1a75b5fb97874cb8"
   dependencies:
     strip-bom "^2.0.0"
+
+deferred-leveldown@~3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/deferred-leveldown/-/deferred-leveldown-3.0.0.tgz#bff7241bf156aa3635f520bedf34330c408d3307"
+  dependencies:
+    abstract-leveldown "~4.0.0"
 
 define-properties@^1.1.2:
   version "1.1.2"
@@ -816,7 +910,7 @@ detect-indent@^4.0.0:
   dependencies:
     repeating "^2.0.0"
 
-detect-libc@^1.0.2:
+detect-libc@^1.0.2, detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://rep.woda.com:8443/repository/npm/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
@@ -877,6 +971,10 @@ dtsmake@^0.0.10:
     commander "^2.9.0"
     tern "^0.21.0"
 
+duplexer3@^0.1.4:
+  version "0.1.4"
+  resolved "https://rep.woda.com:8443/repository/npm/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
+
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -887,7 +985,7 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-end-of-stream@^1.1.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
   resolved "https://rep.woda.com:8443/repository/npm/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
   dependencies:
@@ -906,7 +1004,7 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-errno@^0.1.3:
+errno@^0.1.3, errno@~0.1.1:
   version "0.1.7"
   resolved "https://rep.woda.com:8443/repository/npm/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   dependencies:
@@ -1005,6 +1103,10 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
+expand-template@^1.0.2:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/expand-template/-/expand-template-1.1.0.tgz#e09efba977bf98f9ee0ed25abd0c692e02aec3fc"
+
 expect@^22.4.0:
   version "22.4.0"
   resolved "https://rep.woda.com:8443/repository/npm/expect/-/expect-22.4.0.tgz#371edf1ae15b83b5bf5ec34b42f1584660a36c16"
@@ -1034,13 +1136,13 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://rep.woda.com:8443/repository/npm/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
-eyes@0.1.x:
-  version "0.1.8"
-  resolved "https://rep.woda.com:8443/repository/npm/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
-
 fast-deep-equal@^1.0.0:
   version "1.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
+
+fast-future@~1.0.2:
+  version "1.0.2"
+  resolved "https://rep.woda.com:8443/repository/npm/fast-future/-/fast-future-1.0.2.tgz#8435a9aaa02d79248d17d704e76259301d99280a"
 
 fast-json-parse@^1.0.3:
   version "1.0.3"
@@ -1140,6 +1242,13 @@ form-data@~2.3.1:
     combined-stream "1.0.6"
     mime-types "^2.1.12"
 
+from2@^2.1.1:
+  version "2.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
+  dependencies:
+    inherits "^2.0.1"
+    readable-stream "^2.0.0"
+
 fs-extra@4.0.3:
   version "4.0.3"
   resolved "https://rep.woda.com:8443/repository/npm/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
@@ -1205,7 +1314,11 @@ get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
 
-get-stream@^3.0.0:
+get-func-name@^2.0.0:
+  version "2.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
+
+get-stream@3.0.0, get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
@@ -1214,6 +1327,10 @@ getpass@^0.1.1:
   resolved "https://rep.woda.com:8443/repository/npm/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+github-from-package@0.0.0:
+  version "0.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -1248,6 +1365,28 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
 globals@^9.18.0:
   version "9.18.0"
   resolved "https://rep.woda.com:8443/repository/npm/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
+
+got@^8.3.0:
+  version "8.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/got/-/got-8.3.0.tgz#6ba26e75f8a6cc4c6b3eb1fe7ce4fec7abac8533"
+  dependencies:
+    "@sindresorhus/is" "^0.7.0"
+    cacheable-request "^2.1.1"
+    decompress-response "^3.3.0"
+    duplexer3 "^0.1.4"
+    get-stream "^3.0.0"
+    into-stream "^3.1.0"
+    is-retry-allowed "^1.1.0"
+    isurl "^1.0.0-alpha5"
+    lowercase-keys "^1.0.0"
+    mimic-response "^1.0.0"
+    p-cancelable "^0.4.0"
+    p-timeout "^2.0.1"
+    pify "^3.0.0"
+    safe-buffer "^5.1.1"
+    timed-out "^4.0.1"
+    url-parse-lax "^3.0.0"
+    url-to-options "^1.0.1"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
@@ -1302,6 +1441,16 @@ has-flag@^1.0.0:
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+
+has-symbol-support-x@^1.4.1:
+  version "1.4.2"
+  resolved "https://rep.woda.com:8443/repository/npm/has-symbol-support-x/-/has-symbol-support-x-1.4.2.tgz#1409f98bc00247da45da67cee0a36f282ff26455"
+
+has-to-string-tag-x@^1.2.0:
+  version "1.4.1"
+  resolved "https://rep.woda.com:8443/repository/npm/has-to-string-tag-x/-/has-to-string-tag-x-1.4.1.tgz#a045ab383d7b4b2012a00148ab0aa5f290044d4d"
+  dependencies:
+    has-symbol-support-x "^1.4.1"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -1371,6 +1520,10 @@ htmlparser2@^3.9.1:
     inherits "^2.0.1"
     readable-stream "^2.0.2"
 
+http-cache-semantics@3.8.1:
+  version "3.8.1"
+  resolved "https://rep.woda.com:8443/repository/npm/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz#39b0e16add9b605bf0a9ef3d9daaf4843b4cacd2"
+
 http-signature@~1.1.0:
   version "1.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/http-signature/-/http-signature-1.1.1.tgz#df72e267066cd0ac67fb76adf8e134a8fbcf91bf"
@@ -1420,6 +1573,13 @@ ini@~1.3.0:
 interpret@^1.0.0:
   version "1.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
+
+into-stream@^3.1.0:
+  version "3.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/into-stream/-/into-stream-3.1.0.tgz#96fb0a936c12babd6ff1752a17d05616abd094c6"
+  dependencies:
+    from2 "^2.1.1"
+    p-is-promise "^1.1.0"
 
 invariant@^2.2.2:
   version "2.2.3"
@@ -1521,6 +1681,14 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-object@^1.0.1:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/is-object/-/is-object-1.0.1.tgz#8952688c5ec2ffd6b03ecc85e769e02903083470"
+
+is-plain-obj@^1.0.0:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
+
 is-posix-bracket@^0.1.0:
   version "0.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
@@ -1534,6 +1702,10 @@ is-regex@^1.0.4:
   resolved "https://rep.woda.com:8443/repository/npm/is-regex/-/is-regex-1.0.4.tgz#5517489b547091b0930e095654ced25ee97e9491"
   dependencies:
     has "^1.0.1"
+
+is-retry-allowed@^1.1.0:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/is-retry-allowed/-/is-retry-allowed-1.1.0.tgz#11a060568b67339444033d0125a61a20d564fb34"
 
 is-stream@^1.1.0:
   version "1.1.0"
@@ -1565,7 +1737,7 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
-isstream@0.1.x, isstream@~0.1.2:
+isstream@~0.1.2:
   version "0.1.2"
   resolved "https://rep.woda.com:8443/repository/npm/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
@@ -1631,6 +1803,13 @@ istanbul-reports@^1.1.4:
   resolved "https://rep.woda.com:8443/repository/npm/istanbul-reports/-/istanbul-reports-1.1.4.tgz#5ccba5e22b7b5a5d91d5e0a830f89be334bf97bd"
   dependencies:
     handlebars "^4.0.3"
+
+isurl@^1.0.0-alpha5:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/isurl/-/isurl-1.0.0.tgz#b27f4f49f3cdaa3ea44a0a5b7f3462e6edc39d67"
+  dependencies:
+    has-to-string-tag-x "^1.2.0"
+    is-object "^1.0.1"
 
 jest-changed-files@^22.2.0:
   version "22.2.0"
@@ -1941,6 +2120,10 @@ jsesc@^1.3.0:
   version "1.3.0"
   resolved "https://rep.woda.com:8443/repository/npm/jsesc/-/jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b"
 
+json-buffer@3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
+
 json-schema-traverse@^0.3.0:
   version "0.3.1"
   resolved "https://rep.woda.com:8443/repository/npm/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz#349a6d44c53a51de89b40805c5d5e59b417d3340"
@@ -1955,7 +2138,7 @@ json-stable-stringify@^1.0.1:
   dependencies:
     jsonify "~0.0.0"
 
-json-stringify-safe@~5.0.1:
+json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://rep.woda.com:8443/repository/npm/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
@@ -1986,6 +2169,12 @@ keypress@0.1.x:
   version "0.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/keypress/-/keypress-0.1.0.tgz#4a3188d4291b66b4f65edb99f806aa9ae293592a"
 
+keyv@3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/keyv/-/keyv-3.0.0.tgz#44923ba39e68b12a7cec7df6c3268c031f2ef373"
+  dependencies:
+    json-buffer "3.0.0"
+
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://rep.woda.com:8443/repository/npm/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -2011,6 +2200,39 @@ lcid@^1.0.0:
 left-pad@^1.2.0:
   version "1.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/left-pad/-/left-pad-1.2.0.tgz#d30a73c6b8201d8f7d8e7956ba9616087a68e0ee"
+
+level-errors@~1.1.0:
+  version "1.1.2"
+  resolved "https://rep.woda.com:8443/repository/npm/level-errors/-/level-errors-1.1.2.tgz#4399c2f3d3ab87d0625f7e3676e2d807deff404d"
+  dependencies:
+    errno "~0.1.1"
+
+level-iterator-stream@~2.0.0:
+  version "2.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/level-iterator-stream/-/level-iterator-stream-2.0.0.tgz#e0fe4273a0322177c81bb87684016bb5b90a98b4"
+  dependencies:
+    inherits "^2.0.1"
+    readable-stream "^2.0.5"
+    xtend "^4.0.0"
+
+leveldown@^3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/leveldown/-/leveldown-3.0.0.tgz#a42ef5d4029f88ba538ed8da3e6c34c5b008ddd7"
+  dependencies:
+    abstract-leveldown "~4.0.0"
+    bindings "~1.3.0"
+    fast-future "~1.0.2"
+    nan "~2.8.0"
+    prebuild-install "^2.1.0"
+
+levelup@^2.0.2:
+  version "2.0.2"
+  resolved "https://rep.woda.com:8443/repository/npm/levelup/-/levelup-2.0.2.tgz#83dd22ffd5ee14482143c37cddfb8457854d3727"
+  dependencies:
+    deferred-leveldown "~3.0.0"
+    level-errors "~1.1.0"
+    level-iterator-stream "~2.0.0"
+    xtend "~4.0.0"
 
 leven@^2.1.0:
   version "2.1.0"
@@ -2057,6 +2279,14 @@ loose-envify@^1.0.0:
   resolved "https://rep.woda.com:8443/repository/npm/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+lowercase-keys@1.0.0:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
+
+lowercase-keys@^1.0.0:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
 
 lru-cache@^4.0.1:
   version "4.1.1"
@@ -2130,6 +2360,10 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
+mimic-response@^1.0.0:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/mimic-response/-/mimic-response-1.0.0.tgz#df3d3652a73fded6b9b0b24146e6fd052353458e"
+
 minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://rep.woda.com:8443/repository/npm/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -2148,7 +2382,7 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://rep.woda.com:8443/repository/npm/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-"mkdirp@>=0.5 0", mkdirp@^0.5.1:
+"mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
   resolved "https://rep.woda.com:8443/repository/npm/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
@@ -2170,9 +2404,33 @@ nan@~2.3.0:
   version "2.3.5"
   resolved "https://rep.woda.com:8443/repository/npm/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
+nan@~2.8.0:
+  version "2.8.0"
+  resolved "https://rep.woda.com:8443/repository/npm/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://rep.woda.com:8443/repository/npm/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+
+nock@^9.2.3:
+  version "9.2.3"
+  resolved "https://rep.woda.com:8443/repository/npm/nock/-/nock-9.2.3.tgz#39738087d6a0497d3a165fb352612b38a2f9b92f"
+  dependencies:
+    chai "^4.1.2"
+    debug "^3.1.0"
+    deep-equal "^1.0.0"
+    json-stringify-safe "^5.0.1"
+    lodash "^4.17.5"
+    mkdirp "^0.5.0"
+    propagate "^1.0.0"
+    qs "^6.5.1"
+    semver "^5.5.0"
+
+node-abi@^2.2.0:
+  version "2.3.0"
+  resolved "https://rep.woda.com:8443/repository/npm/node-abi/-/node-abi-2.3.0.tgz#f3d554d6ac72a9ee16f0f4dc9548db7c08de4986"
+  dependencies:
+    semver "^5.4.1"
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -2215,6 +2473,10 @@ nodejieba@^2.2.1, nodejieba@^2.2.5:
   dependencies:
     nan "~2.3.0"
 
+noop-logger@^0.1.1:
+  version "0.1.1"
+  resolved "https://rep.woda.com:8443/repository/npm/noop-logger/-/noop-logger-0.1.1.tgz#94a2b1633c4f1317553007d8966fd0e841b6a4c2"
+
 nopt@^4.0.1:
   version "4.0.1"
   resolved "https://rep.woda.com:8443/repository/npm/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
@@ -2237,13 +2499,21 @@ normalize-path@^2.0.0, normalize-path@^2.0.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
+normalize-url@2.0.1:
+  version "2.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/normalize-url/-/normalize-url-2.0.1.tgz#835a9da1551fa26f70e92329069a23aa6574d7e6"
+  dependencies:
+    prepend-http "^2.0.0"
+    query-string "^5.0.1"
+    sort-keys "^2.0.0"
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   dependencies:
     path-key "^2.0.0"
 
-npmlog@^4.0.2:
+npmlog@^4.0.1, npmlog@^4.0.2:
   version "4.1.2"
   resolved "https://rep.woda.com:8443/repository/npm/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
   dependencies:
@@ -2316,7 +2586,7 @@ optionator@^0.8.1:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-os-homedir@^1.0.0:
+os-homedir@^1.0.0, os-homedir@^1.0.1:
   version "1.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
 
@@ -2339,9 +2609,17 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+p-cancelable@^0.4.0:
+  version "0.4.0"
+  resolved "https://rep.woda.com:8443/repository/npm/p-cancelable/-/p-cancelable-0.4.0.tgz#bcb41d35bf6097fc4367a065b6eb84b9b124eff0"
+
 p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+
+p-is-promise@^1.1.0:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
 
 p-limit@^1.1.0:
   version "1.2.0"
@@ -2354,6 +2632,12 @@ p-locate@^2.0.0:
   resolved "https://rep.woda.com:8443/repository/npm/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
   dependencies:
     p-limit "^1.1.0"
+
+p-timeout@^2.0.1:
+  version "2.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/p-timeout/-/p-timeout-2.0.1.tgz#d8dd1979595d2dc0139e1fe46b8b646cb3cdf038"
+  dependencies:
+    p-finally "^1.0.0"
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -2414,6 +2698,10 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+pathval@^1.0.0:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/pathval/-/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
+
 performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://rep.woda.com:8443/repository/npm/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
@@ -2425,6 +2713,10 @@ performance-now@^2.1.0:
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://rep.woda.com:8443/repository/npm/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
+
+pify@^3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
 
 pinkie-promise@^2.0.0:
   version "2.0.1"
@@ -2472,9 +2764,33 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
 
+prebuild-install@^2.1.0:
+  version "2.5.1"
+  resolved "https://rep.woda.com:8443/repository/npm/prebuild-install/-/prebuild-install-2.5.1.tgz#0f234140a73760813657c413cdccdda58296b1da"
+  dependencies:
+    detect-libc "^1.0.3"
+    expand-template "^1.0.2"
+    github-from-package "0.0.0"
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    node-abi "^2.2.0"
+    noop-logger "^0.1.1"
+    npmlog "^4.0.1"
+    os-homedir "^1.0.1"
+    pump "^2.0.1"
+    rc "^1.1.6"
+    simple-get "^2.7.0"
+    tar-fs "^1.13.0"
+    tunnel-agent "^0.6.0"
+    which-pm-runs "^1.0.0"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://rep.woda.com:8443/repository/npm/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
+
+prepend-http@^2.0.0:
+  version "2.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
 
 preserve@^0.2.0:
   version "0.2.0"
@@ -2499,6 +2815,10 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
+propagate@^1.0.0:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/propagate/-/propagate-1.0.0.tgz#00c2daeedda20e87e3782b344adba1cddd6ad709"
+
 prr@~1.0.1:
   version "1.0.1"
   resolved "https://rep.woda.com:8443/repository/npm/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
@@ -2506,6 +2826,20 @@ prr@~1.0.1:
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+
+pump@^1.0.0:
+  version "1.0.3"
+  resolved "https://rep.woda.com:8443/repository/npm/pump/-/pump-1.0.3.tgz#5dfe8311c33bbf6fc18261f9f34702c47c08a954"
+  dependencies:
+    end-of-stream "^1.1.0"
+    once "^1.3.1"
+
+pump@^2.0.1:
+  version "2.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/pump/-/pump-2.0.1.tgz#12399add6e4cf7526d973cbc8b5ce2e2908b3909"
+  dependencies:
+    end-of-stream "^1.1.0"
+    once "^1.3.1"
 
 pump@^3.0.0:
   version "3.0.0"
@@ -2522,13 +2856,21 @@ punycode@^2.1.0:
   version "2.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/punycode/-/punycode-2.1.0.tgz#5f863edc89b96db09074bad7947bf09056ca4e7d"
 
+qs@^6.5.1, qs@~6.5.1:
+  version "6.5.1"
+  resolved "https://rep.woda.com:8443/repository/npm/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
+
 qs@~6.4.0:
   version "6.4.0"
   resolved "https://rep.woda.com:8443/repository/npm/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-qs@~6.5.1:
-  version "6.5.1"
-  resolved "https://rep.woda.com:8443/repository/npm/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
+query-string@^5.0.1:
+  version "5.1.1"
+  resolved "https://rep.woda.com:8443/repository/npm/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
+  dependencies:
+    decode-uri-component "^0.2.0"
+    object-assign "^4.1.0"
+    strict-uri-encode "^1.0.0"
 
 quick-format-unescaped@^1.1.2:
   version "1.1.2"
@@ -2542,6 +2884,15 @@ randomatic@^1.1.3:
   dependencies:
     is-number "^3.0.0"
     kind-of "^4.0.0"
+
+rc@^1.1.6:
+  version "1.2.6"
+  resolved "https://rep.woda.com:8443/repository/npm/rc/-/rc-1.2.6.tgz#eb18989c6d4f4f162c399f79ddd29f3835568092"
+  dependencies:
+    deep-extend "~0.4.0"
+    ini "~1.3.0"
+    minimist "^1.2.0"
+    strip-json-comments "~2.0.1"
 
 rc@^1.1.7:
   version "1.2.5"
@@ -2567,9 +2918,9 @@ read-pkg@^1.0.0:
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
 
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4:
-  version "2.3.4"
-  resolved "https://rep.woda.com:8443/repository/npm/readable-stream/-/readable-stream-2.3.4.tgz#c946c3f47fa7d8eabc0b6150f4a12f69a4574071"
+readable-stream@^2.0.0, readable-stream@^2.0.5, readable-stream@^2.1.5, readable-stream@^2.3.5:
+  version "2.3.5"
+  resolved "https://rep.woda.com:8443/repository/npm/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -2579,9 +2930,9 @@ readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
-readable-stream@^2.1.5:
-  version "2.3.5"
-  resolved "https://rep.woda.com:8443/repository/npm/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4:
+  version "2.3.4"
+  resolved "https://rep.woda.com:8443/repository/npm/readable-stream/-/readable-stream-2.3.4.tgz#c946c3f47fa7d8eabc0b6150f4a12f69a4574071"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -2744,6 +3095,12 @@ resolve@^1.1.6, resolve@^1.1.7, resolve@^1.3.2:
   dependencies:
     path-parse "^1.0.5"
 
+responselike@1.0.2:
+  version "1.0.2"
+  resolved "https://rep.woda.com:8443/repository/npm/responselike/-/responselike-1.0.2.tgz#918720ef3b631c5642be068f15ade5a46f4ba1e7"
+  dependencies:
+    lowercase-keys "^1.0.0"
+
 right-align@^0.1.1:
   version "0.1.3"
   resolved "https://rep.woda.com:8443/repository/npm/right-align/-/right-align-0.1.3.tgz#61339b722fe6a3515689210d24e14c96148613ef"
@@ -2778,7 +3135,7 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://rep.woda.com:8443/repository/npm/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
   resolved "https://rep.woda.com:8443/repository/npm/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
@@ -2825,6 +3182,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://rep.woda.com:8443/repository/npm/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
+simple-concat@^1.0.0:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/simple-concat/-/simple-concat-1.0.0.tgz#7344cbb8b6e26fb27d66b2fc86f9f6d5997521c6"
+
+simple-get@^2.7.0:
+  version "2.7.0"
+  resolved "https://rep.woda.com:8443/repository/npm/simple-get/-/simple-get-2.7.0.tgz#ad37f926d08129237ff08c4f2edfd6f10e0380b5"
+  dependencies:
+    decompress-response "^3.3.0"
+    once "^1.3.1"
+    simple-concat "^1.0.0"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -2840,6 +3209,12 @@ sntp@2.x.x:
   resolved "https://rep.woda.com:8443/repository/npm/sntp/-/sntp-2.1.0.tgz#2c6cec14fedc2222739caf9b5c3d85d1cc5a2cc8"
   dependencies:
     hoek "4.x.x"
+
+sort-keys@^2.0.0:
+  version "2.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/sort-keys/-/sort-keys-2.0.0.tgz#658535584861ec97d730d6cf41822e1f56684128"
+  dependencies:
+    is-plain-obj "^1.0.0"
 
 source-map-support@^0.4.15:
   version "0.4.18"
@@ -2913,10 +3288,6 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-stack-trace@0.0.x:
-  version "0.0.10"
-  resolved "https://rep.woda.com:8443/repository/npm/stack-trace/-/stack-trace-0.0.10.tgz#547c70b347e8d32b4e108ea1a2a159e5fdde19c0"
-
 stack-utils@^1.0.1:
   version "1.0.1"
   resolved "https://rep.woda.com:8443/repository/npm/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
@@ -2924,6 +3295,10 @@ stack-utils@^1.0.1:
 stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
+
+strict-uri-encode@^1.0.0:
+  version "1.1.0"
+  resolved "https://rep.woda.com:8443/repository/npm/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
 
 string-length@^2.0.0:
   version "2.0.0"
@@ -3023,6 +3398,15 @@ tapable@^0.2.3:
   version "0.2.8"
   resolved "https://rep.woda.com:8443/repository/npm/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
 
+tar-fs@^1.13.0:
+  version "1.16.0"
+  resolved "https://rep.woda.com:8443/repository/npm/tar-fs/-/tar-fs-1.16.0.tgz#e877a25acbcc51d8c790da1c57c9cf439817b896"
+  dependencies:
+    chownr "^1.0.1"
+    mkdirp "^0.5.1"
+    pump "^1.0.0"
+    tar-stream "^1.1.2"
+
 tar-pack@^3.4.0:
   version "3.4.1"
   resolved "https://rep.woda.com:8443/repository/npm/tar-pack/-/tar-pack-3.4.1.tgz#e1dbc03a9b9d3ba07e896ad027317eb679a10a1f"
@@ -3035,6 +3419,15 @@ tar-pack@^3.4.0:
     rimraf "^2.5.1"
     tar "^2.2.1"
     uid-number "^0.0.6"
+
+tar-stream@^1.1.2:
+  version "1.5.5"
+  resolved "https://rep.woda.com:8443/repository/npm/tar-stream/-/tar-stream-1.5.5.tgz#5cad84779f45c83b1f2508d96b09d88c7218af55"
+  dependencies:
+    bl "^1.0.0"
+    end-of-stream "^1.0.0"
+    readable-stream "^2.0.0"
+    xtend "^4.0.0"
 
 tar@^2.2.1:
   version "2.2.1"
@@ -3074,6 +3467,10 @@ through2@^2.0.2:
   dependencies:
     readable-stream "^2.1.5"
     xtend "~4.0.1"
+
+timed-out@^4.0.1:
+  version "4.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
 
 tmpl@1.0.x:
   version "1.0.4"
@@ -3164,6 +3561,10 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
+type-detect@^4.0.0:
+  version "4.0.8"
+  resolved "https://rep.woda.com:8443/repository/npm/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+
 typedoc-default-themes@^0.5.0:
   version "0.5.0"
   resolved "https://rep.woda.com:8443/repository/npm/typedoc-default-themes/-/typedoc-default-themes-0.5.0.tgz#6dc2433e78ed8bea8e887a3acde2f31785bd6227"
@@ -3214,6 +3615,16 @@ uid-number@^0.0.6:
 universalify@^0.1.0:
   version "0.1.1"
   resolved "https://rep.woda.com:8443/repository/npm/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
+
+url-parse-lax@^3.0.0:
+  version "3.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/url-parse-lax/-/url-parse-lax-3.0.0.tgz#16b5cafc07dbe3676c1b1999177823d6503acb0c"
+  dependencies:
+    prepend-http "^2.0.0"
+
+url-to-options@^1.0.1:
+  version "1.0.1"
+  resolved "https://rep.woda.com:8443/repository/npm/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
@@ -3286,6 +3697,10 @@ which-module@^2.0.0:
   version "2.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
 
+which-pm-runs@^1.0.0:
+  version "1.0.0"
+  resolved "https://rep.woda.com:8443/repository/npm/which-pm-runs/-/which-pm-runs-1.0.0.tgz#670b3afbc552e0b55df6b7780ca74615f23ad1cb"
+
 which@^1.2.12, which@^1.2.9, which@^1.3.0:
   version "1.3.0"
   resolved "https://rep.woda.com:8443/repository/npm/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
@@ -3301,17 +3716,6 @@ wide-align@^1.1.0:
 window-size@0.1.0:
   version "0.1.0"
   resolved "https://rep.woda.com:8443/repository/npm/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
-
-winston@^2.4.1:
-  version "2.4.1"
-  resolved "https://rep.woda.com:8443/repository/npm/winston/-/winston-2.4.1.tgz#a3a9265105564263c6785b4583b8c8aca26fded6"
-  dependencies:
-    async "~1.0.0"
-    colors "1.0.x"
-    cycle "1.0.x"
-    eyes "0.1.x"
-    isstream "0.1.x"
-    stack-trace "0.0.x"
 
 wordwrap@0.0.2:
   version "0.0.2"
@@ -3355,7 +3759,7 @@ xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://rep.woda.com:8443/repository/npm/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
 
-xtend@~4.0.1:
+xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://rep.woda.com:8443/repository/npm/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
