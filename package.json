@@ -37,6 +37,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
     "dtsmake": "^0.0.10",
     "got": "^8.3.0",
     "leveldown": "^3.0.0",

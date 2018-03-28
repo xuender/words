@@ -1,9 +1,31 @@
+#!/usr/bin/env node
+import program from 'commander'
 import got from 'got'
 import chalk from 'chalk'
 
-async function main() {
-  const r = await got('https://www.sojson.com/open/api/weather/json.shtml?city=%E5%A8%81%E6%B5%B7', { json: true })
-  print(r.body)
+program
+  .version('0.1.0')
+  .arguments('[city...]')
+  .action(citys => {
+    if (citys.length === 0) {
+      main()
+    } else {
+      main(citys)
+    }
+  })
+program.parse(process.argv)
+if (!program.args.length) { main() }
+
+async function main(citys = ['威海']) {
+  for (const city of citys) {
+    const r = await got('https://www.sojson.com/open/api/weather/json.shtml',
+      {
+        json: true,
+        query: { city: city }
+      }
+    )
+    print(r.body)
+  }
 }
 
 function print(w: any) {
@@ -21,5 +43,3 @@ function print(w: any) {
 function time(s: string) {
   return `${s.substr(0, 4)}年 ${s.substr(4, 2)}月 ${s.substr(6)}日`
 }
-
-main()
