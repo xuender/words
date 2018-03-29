@@ -5,7 +5,8 @@ import chalk from 'chalk'
 
 program
   .version('0.1.0')
-  .arguments('[city...]')
+  .description('获取天气预报')
+  .arguments('<city...>')
   .action(citys => {
     if (citys.length === 0) {
       main()

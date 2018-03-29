@@ -26,6 +26,7 @@
     "@types/node": "^9.4.6",
     "@types/pino": "^4.7.1",
     "@types/pinyin": "^2.8.0",
+    "@types/qrcode": "^0.8.1",
     "@types/readline-sync": "^1.4.3",
     "jest": "^22.2.2",
     "ts-jest": "^22.0.3",
@@ -49,6 +50,7 @@
     "nodejieba": "^2.2.5",
     "pino": "^4.15.0",
     "pinyin": "^2.8.3",
+    "qrcode": "^1.2.0",
     "readline-sync": "^1.4.8",
     "shelljs": "^0.8.1"
   }
