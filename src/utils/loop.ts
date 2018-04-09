@@ -1,5 +1,5 @@
 /**
- * 循环执行
+ * 定时循环执行
  */
 export class Loop {
   private start: number
@@ -11,29 +11,45 @@ export class Loop {
    * @param count 循环次数,默认-1不停止
    */
   constructor(
-    private millisec: number,
+    private _millisec: number,
     private runnable: (loop: Loop) => void,
     private count = -1,
   ) { }
+
+  get millisec(): number {
+    return this._millisec
+  }
+
+  set millisec(millisec: number) {
+    this.init()
+    this._millisec = millisec
+  }
+
+  private init() {
+    this.start = new Date().getTime()
+    this.num = 0;
+  }
 
   /**
    * 运行
    */
   run() {
-    this.start = new Date().getTime()
-    this.intervalTimer = setTimeout(() => { this.doRun() }, this.millisec)
+    this.init()
+    this.setTimeout(this._millisec)
+  }
+
+  private setTimeout(millisec: number) {
+    this.intervalTimer = setTimeout(() => { this.doRun() }, millisec)
   }
 
   private doRun() {
     if (this.count === 0) { return }
     this.count -= 1
     this.num += 1
-    const offset = new Date().getTime() - (this.start + this.num * 1000)
-    // console.log('offset', offset)
-    let nextTime = this.millisec - offset
-    // console.log('offset', offset, nextTime)
-    if (nextTime < 0) { nextTime = 0 }
-    this.intervalTimer = setTimeout(() => { this.doRun() }, nextTime)
+    const offset = new Date().getTime() - (this.num * this._millisec + this.start)
+    const nextTime = this._millisec < offset ? 0 : this._millisec - offset
+    //console.log('offset', offset, nextTime)
+    this.setTimeout(nextTime)
     this.runnable(this)
   }
 
@@ -41,7 +57,6 @@ export class Loop {
    * 停止
    */
   stop() {
-    this.count = 0
     if (this.intervalTimer) {
       clearInterval(this.intervalTimer)
       this.intervalTimer = void 0
