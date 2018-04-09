@@ -6,3 +6,5 @@ export { UseTime, useTime } from './utils/use-time'
 export { progress } from './utils/progress'
 // 字符串
 export { chinese } from './utils/str'
+// 循环
+export { Loop } from './utils/loop'
